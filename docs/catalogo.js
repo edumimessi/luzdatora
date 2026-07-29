@@ -1,0 +1,3 @@
+function normalizeCatalogText(value){return String(value||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
+function initializeCatalogFilter(){const input=document.querySelector("#catalog-filter");const cards=[...document.querySelectorAll("[data-filter-card]")];const empty=document.querySelector("#catalog-empty");if(!input||!cards.length)return;input.addEventListener("input",()=>{const query=normalizeCatalogText(input.value);let visible=0;cards.forEach(card=>{const haystack=normalizeCatalogText(`${card.dataset.search||""} ${card.textContent}`);const match=!query||haystack.includes(query);card.hidden=!match;if(match)visible+=1});if(empty)empty.hidden=visible>0})}
+initializeCatalogFilter();
