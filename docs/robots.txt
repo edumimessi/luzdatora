@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edumimessi.github.io/luzdatora/sitemap.xml
