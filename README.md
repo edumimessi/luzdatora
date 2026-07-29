@@ -30,18 +30,15 @@ O conteúdo distingue claramente:
 
 ## Publicação
 
-O site está na pasta `docs/`, preparado para GitHub Pages.
+O site está na pasta `docs/`, publicado pelo GitHub Pages a partir da branch `main` e da pasta `/docs`.
 
-1. Abra **Settings → Pages**.
-2. Em **Build and deployment**, selecione **Deploy from a branch**.
-3. Escolha a branch `main` e a pasta `/docs`.
-4. Salve.
+Domínio oficial:
 
-Endereço provisório:
+`https://luzdatora.com.br/`
 
-`https://edumimessi.github.io/luzdatora/`
+O arquivo `docs/CNAME` contém apenas `luzdatora.com.br`. O sitemap e o robots.txt também utilizam o domínio oficial.
 
-O domínio próprio será configurado posteriormente por meio do arquivo `docs/CNAME`, depois do registro e da validação DNS.
+No GitHub Pages, o campo **Custom domain** deve permanecer como `luzdatora.com.br`. Após a validação do DNS e a emissão do certificado, deve-se habilitar **Enforce HTTPS**.
 
 ## Princípios editoriais
 
