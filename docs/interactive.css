@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.tanakh-grid .card-open-link { color: #efc36f; }
+.tanakh-grid .card-open-link { color: var(--accent-strong); }
 .card-open-link:hover { text-decoration: underline; }
 
 .study-detail-hero { padding-bottom: 52px; }
