@@ -1,5 +1,5 @@
-const CACHE_NAME="luz-da-tora-v4";
-const APP_SHELL=["./","./index.html","./tora.html","./tanakh.html","./parashot.html","./festas.html","./tehilim.html","./livro.html","./estudo.html","./correntes.html","./pensadores.html","./styles.css","./interactive.css","./app.js","./catalogo.js","./livros.js","./livro.js","./estudo.js","./manifest.webmanifest","./icon.svg","./404.html"];
+const CACHE_NAME="luz-da-tora-v5";
+const APP_SHELL=["./","./index.html","./tora.html","./tanakh.html","./parashot.html","./festas.html","./tehilim.html","./livro.html","./estudo.html","./correntes.html","./pensadores.html","./autor.html","./styles.css","./interactive.css","./app.js","./catalogo.js","./livros.js","./livro.js","./estudo.js","./manifest.webmanifest","./icon.svg","./404.html"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL)));self.skipWaiting()});
 self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)))));self.clients.claim()});
 self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE_NAME).then(cache=>cache.put(event.request,copy));return response}).catch(()=>caches.match(event.request).then(cached=>cached||caches.match("./index.html"))))});

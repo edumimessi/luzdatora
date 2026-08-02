@@ -14,4 +14,5 @@
   <url><loc>https://luzdatora.com.br/livro.html?livro=vayikra</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://luzdatora.com.br/livro.html?livro=bamidbar</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://luzdatora.com.br/livro.html?livro=devarim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://luzdatora.com.br/autor.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
 </urlset>
