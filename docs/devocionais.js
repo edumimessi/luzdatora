@@ -166,17 +166,6 @@ window.DEVOTIONAL_ENTRIES = [
     "question": "Em qual relação minha ideia de espiritualidade precisa tornar-se mais ética?"
   },
   {
-    "concept": "Peá e partilha",
-    "theme": "Deixar margem para o outro",
-    "heading": "Nem tudo o que podemos colher precisa ser apropriado",
-    "verse": "Não colherás inteiramente os cantos do teu campo.",
-    "reference": "Vayikra 19:9 · paráfrase editorial",
-    "context": "A lei da peá manda deixar parte da colheita para o pobre e o estrangeiro, inserindo acesso e dignidade na produção.",
-    "reflection": "Generosidade posterior não substitui estruturas que já reservem lugar a quem precisa. A margem pode ser planejada.",
-    "action": "Separe uma parcela fixa de dinheiro, tempo ou competência para benefício de quem tem menos acesso.",
-    "question": "Meu planejamento inclui alguém além de mim?"
-  },
-  {
     "concept": "Lifnei iver",
     "theme": "Não explorar a vulnerabilidade",
     "heading": "Conhecimento e poder aumentam a responsabilidade",
@@ -340,17 +329,6 @@ window.DEVOTIONAL_ENTRIES = [
     "reflection": "Tzedaká envolve justiça e obrigação, não apenas emoção espontânea. A ajuda deve preservar dignidade e considerar causas estruturais.",
     "action": "Contribua com uma organização confiável ou atenda uma necessidade concreta sem expor quem recebe.",
     "question": "Meu modo de ajudar devolve autonomia ou aumenta dependência e constrangimento?"
-  },
-  {
-    "concept": "Emuná",
-    "theme": "Fidelidade no caminho",
-    "heading": "A confiança se prova também na continuidade do bem",
-    "verse": "O justo viverá por sua fidelidade.",
-    "reference": "Chavakuk 2:4 · paráfrase editorial",
-    "context": "No oráculo profético, a arrogância é contrastada com a emuná do justo em meio à espera.",
-    "reflection": "Emuná pode envolver confiança, firmeza e fidelidade. Não é garantia de que tudo ocorrerá como desejamos.",
-    "action": "Mantenha hoje um compromisso ético mesmo sem reconhecimento ou resultado imediato.",
-    "question": "A que valor permanecerei fiel quando não houver recompensa visível?"
   },
   {
     "concept": "Palavras",
