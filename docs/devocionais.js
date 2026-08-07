@@ -166,7 +166,7 @@ window.DEVOTIONAL_ENTRIES = [
     "question": "Em qual relação minha ideia de espiritualidade precisa tornar-se mais ética?"
   },
   {
-    "concept": "Peá",
+    "concept": "Peá e partilha",
     "theme": "Deixar margem para o outro",
     "heading": "Nem tudo o que podemos colher precisa ser apropriado",
     "verse": "Não colherás inteiramente os cantos do teu campo.",
@@ -351,5 +351,16 @@ window.DEVOTIONAL_ENTRIES = [
     "reflection": "Emuná pode envolver confiança, firmeza e fidelidade. Não é garantia de que tudo ocorrerá como desejamos.",
     "action": "Mantenha hoje um compromisso ético mesmo sem reconhecimento ou resultado imediato.",
     "question": "A que valor permanecerei fiel quando não houver recompensa visível?"
+  },
+  {
+    "concept": "Palavras",
+    "theme": "A ética da fala",
+    "heading": "A língua pode preservar ou ferir uma comunidade",
+    "verse": "Quem guarda sua boca e sua língua guarda sua vida de aflições.",
+    "reference": "Mishlê 21:23 · tradução próxima do verso",
+    "context": "No livro de Mishlê, a sabedoria prática relaciona domínio da fala, prudência e consequências da conduta.",
+    "reflection": "Silêncio nem sempre é virtude, especialmente diante da injustiça. Mas a palavra responsável pergunta se algo é verdadeiro, necessário e proporcional antes de expor ou ferir.",
+    "action": "Antes de compartilhar uma informação sobre alguém, confirme sua necessidade, sua fonte e o possível dano.",
+    "question": "Minha fala hoje esclarece, protege e repara — ou apenas descarrega uma emoção?"
   }
 ];
