@@ -15,7 +15,7 @@ O conteúdo distingue claramente:
 
 ## Estrutura atual
 
-- Devocional diário rotativo
+- Devocional diário com ciclo editorial de 31 leituras únicas, referências tipificadas, contexto, reflexão e prática
 - Introdução à Torá e aos cinco livros
 - Estudos próprios de Bereshit, Shemot, Vayikra, Bamidbar e Devarim
 - Catálogo das 54 parashot, com pesquisa por nome e tema
@@ -53,3 +53,7 @@ No GitHub Pages, o campo **Custom domain** deve permanecer como `luzdatora.com.b
 ---
 
 Projeto criado por Dr. Eduardo D’Angelo Mimessi.
+
+## Validação editorial
+
+Execute `node scripts/validate-devotionals.mjs` para verificar quantidade, campos obrigatórios, identificação do tipo textual e duplicatas exatas antes de publicar.
